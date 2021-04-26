@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/moma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="186dp"
+        android:fontFamily="cursive"
+        android:text="Your Baby's Name is "
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/bbaby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="277dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/gbaby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="435dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="70sp" />
+
+
+</RelativeLayout>

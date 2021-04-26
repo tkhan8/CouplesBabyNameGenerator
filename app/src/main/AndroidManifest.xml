@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project2">
+        <activity android:name=".name"></activity>
+        <activity android:name=".bname" />
+        <activity android:name=".bge" />
+        <activity android:name=".bmom" />
+        <activity android:name=".bdad" />
+        <activity android:name=".girlgene" />
+        <activity android:name=".girl1" />
+        <activity android:name=".mom2" />
+        <activity android:name=".dad4" />
+        <activity android:name=".boyname" />
+        <activity android:name=".bgene" />
+        <activity android:name=".dad3" />
+        <activity android:name=".mom3" />
+        <activity android:name=".boy" />
+        <activity android:name=".girlService" />
+        <activity android:name=".ggenerator" />
+        <activity android:name=".qd" />
+        <activity android:name=".qm" />
+        <activity android:name=".girl" />
+        <activity android:name=".dg" />
+        <activity android:name=".momTurn" />
+        <activity android:name=".generator" />
+        <activity android:name=".dad2nogender" />
+        <activity android:name=".dad1" />
+        <activity android:name=".mom1" />
+        <activity android:name=".dontKnowGender" />
+        <activity android:name=".whatsTheGender" />
+        <activity android:name=".second" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
